@@ -1,0 +1,80 @@
+/* * {
+    border: 2px solid red;
+} */
+
+/* Start Header */
+header {
+    background-color: #1f2937;
+    color: white;
+    font-family: "Verdana", "sans-serif";
+}
+
+
+.header.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header.links {
+    display: flex;
+    gap: 16px;
+    margin: 8px;
+}
+
+.header.links li {
+    display: flex;
+    align-items: center;
+}
+
+#odin-logo {
+    height: 50px;
+    margin: 8px;
+}
+
+#panama-players {
+    height: 200px
+}
+
+.header.content {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.signup {
+    width: 500px;
+    padding: 8px;
+}
+
+.signup h1 {
+    width: 400px;
+    margin: 0;
+}
+
+.signup p {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.signup button {
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 16px;
+}
+/* End Header */
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
