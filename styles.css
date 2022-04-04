@@ -2,11 +2,14 @@
     border: 2px solid red;
 } */
 
+* {
+    font-family: "Verdana", "sans-serif";
+}
+
 /* Start Header */
 header {
     background-color: #1f2937;
     color: white;
-    font-family: "Verdana", "sans-serif";
 }
 
 
@@ -65,6 +68,33 @@ header {
     padding: 8px 16px;
 }
 /* End Header */
+
+/* Start Content */
+
+.content h2 {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.images.item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    gap: 8px;
+}
+
+.square-image {
+    width: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
 
 body {
     margin: 0;
